@@ -41,7 +41,6 @@ export default function App() {
       })
       .catch(error => setError(error))
       .finally(() => setLoading(false));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [value, page]);
 
   return (
