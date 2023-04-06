@@ -10,7 +10,6 @@ export default function PopupWindow({ largeImageURL, closeModal }) {
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleClick = e => {
